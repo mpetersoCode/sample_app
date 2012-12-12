@@ -5,5 +5,10 @@ class UsersController < ApplicationController
 	end
   
 	def new
+	  @user = User.new
 	end
+	
+	def find
+    @user = User.new
+  end
 end
